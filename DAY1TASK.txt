@@ -1,0 +1,20 @@
+ HTTP 1.1 Vs HTTP 1.2
+
+HTTP 1.1
+HTTP 1.1 was introduced in 1997, it is a communication standard for world wide web.
+In this version data transfer can be done in a single TCP, whereas the previous version used separate TCP for request and response. It uses GET method to request for a data and POST method to submit data it uses PUT method to update and DELETE method to delete a data. It allows the users to request for specific portion of the resource. It is a text based protocol
+
+HTTP 1.2
+This version introduced multiplexing concept, it can use single TCP to get multiple request and response. This reduces wait time. This version uses HPACK header compression to reduce the size and improve performance. It Is a binary based protocol. It uses TLS for encryption and it is secure compared to v1.1. 
+
+Objects
+Each and everything in JavaScript is an Object. It is a datatype in JavaScript. It consists of key value pairs, key and values are separated using a colon. Value can be of any data type i.e. String/ number/Boolean/Array. It is a non-primitive data type.
+Syntax:
+Let objectName = {
+Key: value,
+Key: value
+}
+We can add a value to object by calling the object name and assigning the value 
+Example:
+ObjectName.key2=Value
+We can delete the value using delete keyword.
